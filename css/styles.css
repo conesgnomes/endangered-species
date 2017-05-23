@@ -1,11 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Alegreya Sans SC';
+  background-image: url(../img/stars.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.masthead {
+  position: fixed;
+  width: 100%;
+  min-width: 1800px;
+  max-width: 1800px;
+  top: 15px;
+  font-family: 'Amatic SC';
+  font-size: 3em;
+  z-index: 1;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  padding: 0 10px;
+  background: rgba(255, 255, 255, 0.7);
+  width: 900px;
+
+}
+
 .map {
   position: relative;
+  height: auto;
+  width: 100%;
+  margin: 150px auto 0 auto;
 }
+
 
 .animal img{
   height: 60px;
   border-radius: 100px;
   border: solid black 1px;
+}
+
+.photo:hover {
+  box-shadow: 0px 0px 100px purple;
+  cursor: pointer;
 }
 
 .description {
@@ -16,6 +53,7 @@
   border-radius: 5px;
   padding: 5px;
   width: 200px;
+  display: none;
 }
 
 .arrow {
@@ -27,6 +65,7 @@
   transform: rotate(45deg);
   margin-left: 30px;
   margin-top: 10.5px;
+  display: none;
 }
 
 #snow-leopard {
