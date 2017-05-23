@@ -5,13 +5,34 @@
 .animal img{
   height: 60px;
   border-radius: 100px;
-  border: solid black 2px;
+  border: solid black 1px;
+}
+
+.description {
+  position: absolute;
+  background-color: rgb(225,225,225);
+  border: solid black 1px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+}
+
+.arrow {
+  border-left: solid black 1px;
+  border-top: solid black 1px;
+  background: rgb(225,225,225);
+  height: 10px;
+  width: 10px;
+  transform: rotate(45deg);
+  margin-left: 30px;
+  margin-top: 10.5px;
 }
 
 #snow-leopard {
   position: absolute;
-  top: 50px;
-  left: 1000px;
+  top: 40px;
+  left: 1050px;
 }
 
 #ocelot {
@@ -38,18 +59,6 @@
   left: 1200px;
 }
 
-#cheetah {
-  position: absolute;
-  top: 500px;
-  left: 920px;
-}
-
-.description {
-  position: absolute;
-  width: 200px;
-
-}
-
 #brown-bear {
   position: absolute;
   top: 110px;
@@ -58,25 +67,24 @@
 
 #chimp {
   position: absolute;
-  top: 300px;
-  left: 930px;
+  top: 400px;
+  left: 920px;
 }
 
 #blue-whale {
   position: absolute;
-  top: 700px;
-  left: 1250px;
+  top: 500px;
+  left: 200px;
 }
 
 #aye-aye {
   position: absolute;
-  top: 470px;
+  top: 570px;
   left: 1070px;
 }
 
-.description {
-  background-color: white;
-  text-align: center;
-  border-radius: 10px;
-  padding: 5px;
+#frog {
+  position: absolute;
+  top: 600px;
+  left: 1450px;
 }
