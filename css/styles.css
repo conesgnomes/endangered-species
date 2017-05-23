@@ -22,9 +22,15 @@ h1 {
   margin: 0 auto 0 auto;
   padding: 0 10px;
   background: rgba(255, 255, 255, 0.7);
-  width: 900px;
+  width: 1000px;
+  text-align: center;
 
 }
+
+h1:before, h1:after{
+  content:url("../img/tree-icon.png");
+}
+
 
 .map {
   position: relative;
@@ -40,10 +46,6 @@ h1 {
   border: solid black 1px;
 }
 
-.photo:hover {
-  box-shadow: 0px 0px 100px purple;
-  cursor: pointer;
-}
 
 .description {
   position: absolute;
@@ -66,6 +68,18 @@ h1 {
   margin-left: 30px;
   margin-top: 10.5px;
   display: none;
+}
+
+.photo:hover {
+  box-shadow: 0px 0px 100px purple;
+}
+
+.photo:hover ~ .description {
+  display: block;
+}
+
+.photo:hover ~ .arrow {
+  display: block;
 }
 
 #snow-leopard {
